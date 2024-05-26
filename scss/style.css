@@ -46,6 +46,9 @@ a{
   justify-content: space-around;
   gap: 16px;
 }
+.left>h5{
+  color: rgba(65, 65, 65, 1);
+}
 
 button{
   display: flex;
@@ -491,4 +494,524 @@ text-align: left;
   display: flex;
   align-self: flex-end;
   gap: 20px;
+}
+
+
+
+/*////////////////// MEDIA///////////// */
+
+
+@media (max-width: 768px){
+
+  .container {
+    max-width: 1240px;
+     padding: 10px 20px ;
+     margin: 0 auto !important;
+   }
+   .header{
+    width: 100%;
+     position: sticky;
+     top: 0;
+     left: 0;
+     height: 80px;
+     right: 0;
+     z-index: 10;
+     background: #fff;
+   
+   
+   }
+   .main_header {
+     width: 100%;
+     box-shadow: rgba(255, 255, 255, 1);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   
+   }
+   
+   .left{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 16px;
+   }
+   .left>h5{
+    display: none;
+     color: rgba(65, 65, 65, 1);
+   }
+   
+   button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* width: 150px; */
+   padding: 10px 10px 10px 10px;
+   gap: 10px;
+   border-radius: 4px;
+   opacity: 0px;
+   cursor: pointer;
+   background: #70C05B;
+   color: white;
+   border: none;
+   font-weight: 400;
+   }
+   button>img{
+     padding: 0;
+   }
+   button>p{
+    display: none;
+   }
+   input{
+     outline: none;
+   }
+   
+   .input input{
+     width:100%;
+   height: 40px;
+   padding: 8px ;
+   /* gap: 10px; */
+   border-radius: 4px;
+   border: 1px solid rgb(2, 154, 2);
+    
+   
+   }
+   .input{
+     position: relative;
+   }
+   .input>img{
+     position: absolute;
+     right: 5px;
+     top: 8px;
+   }
+   .right{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     /* border: 1px black solid; */
+   }
+   .right>a{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     text-decoration: none;
+     font-family: Rubik;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+     text-align: center;
+     
+     color: rgba(65, 65, 65, 1);
+   }
+   
+   .person{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* border: 1px black solid; */
+     gap: 10px;
+   }
+   .person>p{
+    display: none;
+   }
+   .icon_shape{
+    display: none;
+   }
+   main{
+   
+     background-color:rgba(251, 248, 236, 1);
+   }
+   
+   .main_1{
+     background: #fff;
+     background-image: url(../assets/images/icons/Group\ 7100.svg);
+     width: 100%;
+     height: 211px;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   
+   .asos{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+   }
+   .aksiya{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+   }
+   .aksiya>h1{
+     color:rgba(65, 65, 65, 1);
+     font-size: 24px;
+   }
+   .vse{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 20px;
+     font-size: 16px;
+   }
+
+   .cards{
+     padding: 20px;
+   }
+   
+   .card{
+     position: relative;
+     /* border: 1px black solid; */
+     width:272px;
+     z-index: 0;
+     height:  370px;
+     /* gap: 5px; */
+     display: flex;
+     flex-direction: column;
+     border-radius: 4px 0px 0px 0px;
+     opacity: 0px;
+     padding: 8px;
+     justify-content: space-between;
+     margin-top: 40px;
+     background: #fff;
+     border-radius: 8px;
+   }
+   
+   .card2{
+     position: relative;
+     /* border: 1px black solid; */
+     width:272px;
+     z-index: 0;
+     height:  350px;
+     /* line-height: 15px; */
+     /* gap: 12px; */
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     border-radius: 4px 0px 0px 0px;
+     opacity: 0px;
+     padding: 8px;
+     margin-top: 40px;
+     background: #fff;
+     border-radius: 8px;
+   }
+   .card>img{
+     width: 100%;
+     /* border: 1px black solid; */
+     background-size: cover;
+   }
+   
+   .card2>img{
+     width: 100%;
+     /* border: 1px black solid; */
+     background-size: cover;
+   }
+   .cost{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+   
+   }
+   .cost>p{
+     font-size: 16px;
+    color:  rgba(96, 96, 96, 1);
+   }
+   .cost>strong{
+    font-size: 18px;
+    color: rgba(65, 65, 65, 1);
+   }
+   .cost>h6{
+     font-weight: 300;
+    color: rgba(191, 191, 191, 1);
+   }
+   .bes>h5{
+     color: rgba(65, 65, 65, 1);
+     font-weight: 400;
+   font-family: Rubik;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+   
+   }
+   .card>button{
+     width: 100%;
+     height: 46px;
+     background: transparent;
+     border: #70C05B 1.5px solid;
+     color: #70C05B;
+     transition: .4s linear all;
+   }
+   .card2>button{
+     width: 100%;
+     height: 46px;
+     background: transparent;
+     border: #70C05B 1.5px solid;
+     color: #70C05B;
+     transition: .4s linear all;
+   }
+   .card>button:hover{
+     background: rgba(255, 102, 51, 1);
+     color: white;
+     border: none;
+   }
+   .card2>button:hover{
+     background: rgba(255, 102, 51, 1);
+     color: white;
+     border: none;
+   }
+   
+   .card::before{
+     content: '-50%';
+     background: rgba(255, 102, 51, 1);
+     display: inline-block;
+     display: inline-block;
+     width: 35px;
+     height: 15px;
+     padding: 10px;
+     border-radius: 8px;
+     z-index: 5;
+     color: white;
+     display: flex;
+     font-size: 16px;
+     align-items: center;
+     top: 90px;
+     position: absolute;
+     transition: .3s;
+     cursor: pointer;
+   }
+   
+   
+   
+   .card::after{
+     content:url(../assets/images/icons/heart.svg);
+     background: rgba(243, 242, 241, 1);
+     width: 32px;
+     height: 25px;
+     padding: 10px;
+     border-radius: 8px;
+     z-index: 5;
+     color: white;
+     display: flex;
+     align-self: center;
+     justify-content: center;
+     top: 5px;
+     right: 5px;
+     opacity: 50%;
+     position: absolute;
+     cursor: pointer;
+   }
+   
+   .card2::after{
+     content:url(../assets/images/icons/heart.svg);
+     background: rgba(243, 242, 241, 1);
+     width: 32px;
+     height: 25px;
+     padding: 10px;
+     border-radius: 8px;
+     z-index: 5;
+     color: white;
+     display: flex;
+     align-self: center;
+     justify-content: center;
+     top: 5px;
+     right: 5px;
+     opacity: 50%;
+     position: absolute;
+     cursor: pointer;
+   }
+   
+   
+   .hammasi{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 20px;
+   }
+
+   .card:last-child{
+    display: none;
+   }
+   .card2:last-child{
+    display: none;
+   }
+   .vse>p{
+     color: rgba(117, 115, 113, 1);
+   }
+   
+   .novinki{
+     margin-top: 50px;
+   }
+   
+   .karta{
+     padding: 20px;
+   }
+   .karta>h3{
+     margin-bottom: 30px;
+   }
+   .ban{
+     padding: 20px;
+   }
+   .ban>h3{
+     color: rgba(65, 65, 65, 1);
+     margin-bottom: 30px;
+   }
+   .banners{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     justify-content: space-around;
+   }
+   .banners>img{
+     width: 584px;
+   height: 200px;
+   gap: 10px;
+   border-radius: 8px;
+   opacity: 0px;
+   transition: .3s linear;
+   }
+   .banners>img:hover{
+     box-shadow: 0px 0px 18px 3px rgb(109, 108, 108);
+   }
+   
+   .ich{
+     padding: 40px;
+   }
+   .ich>h3{
+     margin-bottom: 50px;
+   }
+   .ich>img{
+     max-width: 1100px;
+     cursor: pointer;
+     cursor: pointer;
+   }
+   .btn{
+     display: flex;
+     align-items: center;
+     gap:24px;
+     margin-bottom: 30px;
+   }
+   .btn>button{
+     background: #fff;
+     color: rgba(96, 96, 96, 1);
+   padding: 12px 16px;
+   transition: .4s linear;
+   }
+   .btn>button:hover{
+     background: #70C05B;
+     color: white;
+   }
+   .stati{
+     padding: 30px;
+   }
+   
+   .stati_cards{
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 40px;
+   }
+   .stati_cards_card{
+     font-family: rubik;
+     /* border: 1px black solid; */
+     width: 320px;
+     background: #fff;
+   height: 460px;
+   border-radius: 4px;
+   display: flex;
+   gap: 8px;
+   flex-direction: column;
+   
+   }
+   .but{
+   
+     padding-left: 15px;
+     padding-right: 15px;
+     gap: 8px;
+     display: flex;
+     justify-content: space-between;
+     height: 100%;
+     flex-direction: column;
+     padding-bottom: 15px;
+   }
+   .but>p{
+   color: rgba(143, 143, 143, 1);
+   }
+   .but>strong{
+   color: rgba(65, 65, 65, 1);
+   }
+   .but>button{
+     width: 150px;
+   color: #70C05B;
+   background: #fff;
+   border: #70C05B 1px solid;
+   transition: .4s linear;
+   }
+   .but>button:hover{
+     background: #70C05B;
+     border: 1px solid transparent ;
+     color: white;
+   
+   }
+   .but>h5{
+     color: rgba(65, 65, 65, 1);
+     font-family: Rubik;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     text-align: left;
+     
+   }
+   
+   footer{
+     background-color:rgba(249, 244, 226, 1);
+   display: flex;
+   align-items: center;
+   
+     height: 126px;
+     background-image: url(../assets/images/icons/pattern2.svg);
+   }
+   .foot{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+     gap :10px;
+   }
+   ul{
+     display: flex;
+     gap: 40px;
+   
+   font-family: Rubik;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;
+   
+   }
+   .top{
+     width: 100%;
+     justify-self: space-around;
+     gap: 40px;
+     display: flex;
+   }
+   .tel{
+     gap: 10px;
+     display: flex;
+     align-items: center;
+   
+   }
+   .tel>input{
+     width: 120px;
+     border: none;
+     outline: none;
+   }
+   .foot_bottom{
+     color: rgba(65, 65, 65, 1);
+     display: flex;
+     align-self: flex-end;
+     gap: 20px;
+   }
+   
 }
