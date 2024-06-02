@@ -1,461 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./scss/style.css">
     <title>Ecommerce</title>
-  </head>
-  <body>
+</head>
+<body>
 
-    <header class="header">
-      <div class="container">
+<header class="header">
+    <div class="container">
         <div class="main_header">
-          <div class="left">
-            <img src="./assets/images/icons/group.svg" alt="Logo.png">
-            <h5>Северяночка</h5>
-           
-          <button>
-            <img src="./assets/images/icons/menu.svg" alt="menu">
-            <p>Каталог</p>
-          </button>
-          <div class="input">
-            <input type="search" placeholder="Найти товар" >
-          <img src="./assets/images/icons/search.svg" alt=""></div>
-        </div>  
-        <div class="right">
-          <a href="#"><img src="./assets/images/icons/heart.svg" alt=""> Избранное</a>
-          <a href="#">
-            <img src="./assets/images/icons/package.svg" alt=""> продукты</a>
-            <a href="#"><img src="./assets/images/icons/shopping-cart-notice-num.svg" alt=""> Корзина</a>
-            <div class="person">
-              <img src="./assets/images/icons/avatar.svg" alt="person">
-              <p style="color:rgba(65, 65, 65, 1);font-weight: 400;">Алексей</p>
-              <img class="icon_shape" src="./assets/images/icons/Shape (Stroke).svg" alt="">
+
+            <div class="left">
+                <img src="./assets/images/icons/group.svg" alt="Logo.png">
+                <a href="./index.html"><h5>Северяночка</h5></a>
+
+                <div>
+
+                    <div class="menu">
+                        <button class="humburger">
+                            <img src="./assets/images/icons/menu.svg" alt="">
+                            <a href="./pages/category.html"><p>Каталог</p></a>
+                        </button>
+
+                    </div>
+                    <div class="navlink">
+                        <div class="navbar_links">
+                            <div class="nav_item">
+                                <a href="#">Молоко, сыр, яйцо</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Хлеб</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Фрукты и овощи</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Замороженные продукты</a>
+                            </div>
+                        </div>
+                        <div class="nav2">
+                            <div class="nav_item">
+                                <a href="#">Напитки</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Кондитерские изделия</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Чай, кофе</a>
+                            </div>
+                        </div>
+                        <div class="nav3">
+                            <div class="nav_item">
+                                <a href="#">Бакалея</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Здоровое питание</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Зоотовары</a>
+                            </div>
+                        </div>
+
+                        <div class="nav4">
+                            <div class="nav_item">
+                                <a href="#">Непродовольственные товары</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Детское питание</a>
+                            </div>
+                            <div class="nav_item">
+                                <a href="#">Мясо, птица, колбаса</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="inputs">
+                    <input type="search" placeholder="Найти товар">
+                    <img src="./assets/images/icons/search.svg" alt=""></div>
+            </div>
+            <div class="right">
+                <a href="#"><img src="./assets/images/icons/heart.svg" alt=""> Избранное</a>
+                <a href="./pages/products.html">
+                    <img src="./assets/images/icons/package.svg" alt=""> продукты</a>
+                <a href="#"><img src="./assets/images/icons/shopping-cart-notice-num.svg" alt=""> Корзина</a>
+                <div class="person">
+                    <img src="./assets/images/icons/avatar.svg" alt="person">
+                    <p style="color:rgba(65, 65, 65, 1);font-weight: 400;">Алексей</p>
+
+                    <div class="people-str">
+                        <button class="people-str"><img class="icon_shape"
+                                                        src="./assets/images/icons/Shape (Stroke).svg" alt="img">
+                        </button>
+                    </div>
+                    <div class="navbar  ">
+                        <div class="blur"></div>
+                        <div class="nav-close">
+                            <div style="position: absolute;" class="nav-xx">
+                                <button class="btn-open">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        style="fill: #fff;transform:rotate(1);">
+                                        <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="nav-exit">
+                                <h2>Вход</h2>
+                            </div>
+                            <div class="nav-phone">
+                                <p>Телефон</p>
+                                <input type="text" id="phone" placeholder="+998 (33) 1234567">
+                            </div>
+                            <div class="nav-btn">
+                                <button class="btn-open">Вход</button>
+                            </div>
+                            <div class="nav1">
+                                <div class="nav1-link">
+                                    <button class="btn-open">Регистрация</button>
+                                </div>
+                                <div class="nav1-link">
+                                    <button class="btn-open">Забыли пароль?</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-      </div>
+    </div>
 
-     
-      
-    </header>
 
-    <main>
-      <section class="main_1">
+</header>
+
+<main>
+    <section class="main_1">
         <div class="container">
             <div class="asos">
-              <img src="./assets/images/icons/img.svg" alt="">
-              <h1>Доставка бесплатно от 1000 ₽</h1>
+                <img src="./assets/images/icons/img.svg" alt="">
+                <h1>Доставка бесплатно от 1000 ₽</h1>
             </div>
         </div>
-      </section>
+    </section>
 
-      <section class="cards">
+    <section class="cards">
         <div class="container">
-        <div class="aksiya">
-          <h1>Акции</h1>
-          <div class="vse"><p>Все продукты</p>
-            <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
+            <div class="aksiya">
+                <h1>Акции</h1>
+                <div class="vse"><p>Все продукты</p>
+                    <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
+            </div>
+            <div class="hammasi">
+
+                <div class="card">
+                    <img src="./assets/images/icons/image.svg" alt="product">
+                    <div class="cost">
+                        <strong>44,50 ₽</strong>
+                        <p>50,50 ₽</p>
+                    </div>
+                    <div class="cost">
+                        <h6>С картой</h6>
+                        <h6>Обычная</h6>
+                    </div>
+                    <div class="bes">
+                        <h5>Г/Ц Блинчики с мясом вес, Россия</h5>
+                    </div>
+                    <div class="st">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                    </div>
+
+                    <button>В корзину</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/icons/kefir.svg" alt="product">
+                    <div class="cost">
+                        <strong>44,50 ₽</strong>
+                        <p>50,50 ₽</p>
+                    </div>
+                    <div class="cost">
+                        <h6>С картой</h6>
+                        <h6>Обычная</h6>
+                    </div>
+                    <div class="bes">
+                        <h5>Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</h5>
+                    </div>
+                    <div class="st">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <!-- <img src="./assets/images/icons/star (1).svg" alt="star"> -->
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                    </div>
+
+                    <button>В корзину</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/icons/kitob.svg" alt="product">
+                    <div class="cost">
+                        <strong>44,50 ₽</strong>
+                        <p>50,50 ₽</p>
+                    </div>
+                    <div class="cost">
+                        <h6>С картой</h6>
+                        <h6>Обычная</h6>
+                    </div>
+                    <div class="bes">
+                        <h5>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</h5>
+                    </div>
+                    <div class="st">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <!-- <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star"> -->
+                    </div>
+
+                    <button>В корзину</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/icons/sasiska.svg" alt="product">
+                    <div class="cost">
+                        <strong>44,50 ₽</strong>
+                        <p>50,50 ₽</p>
+                    </div>
+                    <div class="cost">
+                        <h6>С картой</h6>
+                        <h6>Обычная</h6>
+                    </div>
+                    <div class="bes">
+                        <h5>Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</h5>
+                    </div>
+                    <div class="st">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/star.svg" alt="star">
+                        <img src="./assets/images/icons/yarimta.svg" alt="star">
+                        <!-- <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star">
+                        <img src="./assets/images/icons/star (1).svg" alt="star"> -->
+                    </div>
+
+                    <button>В корзину</button>
+                </div>
+            </div>
+
+            <div class="novinki">
+                <div class="aksiya">
+                    <h1>Новинки</h1>
+                    <div class="vse"><p>Все продукты</p>
+                        <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
+                </div>
+                <div class="hammasi">
+                    <div class="card2">
+                        <img src="./assets/images/icons/kalbasa.svg" alt="product">
+                        <div class="cost">
+                            <strong>599,99 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/kitob.svg" alt="product">
+                        <div class="cost">
+                            <strong>44,50 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/sasiska.svg" alt="product">
+                        <div class="cost">
+                            <strong>159,99 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <!-- <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/kefir.svg" alt="product">
+                        <div class="cost">
+                            <strong>49,39 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <!-- <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="novinki">
+                <div class="aksiya">
+                    <h1>Покупали раньше</h1>
+                    <div class="vse"><p>Все продукты</p>
+                        <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
+                </div>
+                <div class="hammasi">
+                    <div class="card2">
+                        <img src="./assets/images/icons/kalbasa2.svg" alt="product">
+                        <div class="cost">
+                            <strong>77,99 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/kitob.svg" alt="product">
+                        <div class="cost">
+                            <strong>159,99 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/kalbasa.svg" alt="product">
+                        <div class="cost">
+                            <strong>599,99 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <!-- <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card2">
+                        <img src="./assets/images/icons/kefir.svg" alt="product">
+                        <div class="cost">
+                            <strong>49,39 ₽</strong>
+                        </div>
+
+                        <div class="bes">
+                            <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
+                        </div>
+                        <div class="st">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <!-- <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/star.svg" alt="star">
+                            <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                            <img src="./assets/images/icons/star (1).svg" alt="star">
+                        </div>
+
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
         </div>
-<div class="hammasi">
-  
-  <div class="card">
-    <img src="./assets/images/icons/image.svg" alt="product">
-    <div class="cost">
-      <strong>44,50 ₽</strong>
-      <p>50,50 ₽</p>
-    </div>
-    <div class="cost">
-      <h6>С картой</h6>
-      <h6>Обычная</h6>
-    </div>
-    <div class="bes">
-      <h5>Г/Ц Блинчики с мясом вес, Россия</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
+    </section>
 
-    <button>В корзину</button>
-  </div>
-  <div class="card">
-    <img src="./assets/images/icons/kefir.svg" alt="product">
-    <div class="cost">
-      <strong>44,50 ₽</strong>
-      <p>50,50 ₽</p>
-    </div>
-    <div class="cost">
-      <h6>С картой</h6>
-      <h6>Обычная</h6>
-    </div>
-    <div class="bes">
-      <h5>Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star (1).svg" alt="star"> -->
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card">
-    <img src="./assets/images/icons/kitob.svg" alt="product">
-    <div class="cost">
-      <strong>44,50 ₽</strong>
-      <p>50,50 ₽</p>
-    </div>
-    <div class="cost">
-      <h6>С картой</h6>
-      <h6>Обычная</h6>
-    </div>
-    <div class="bes">
-      <h5>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star"> -->
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card">
-    <img src="./assets/images/icons/sasiska.svg" alt="product">
-    <div class="cost">
-      <strong>44,50 ₽</strong>
-      <p>50,50 ₽</p>
-    </div>
-    <div class="cost">
-      <h6>С картой</h6>
-      <h6>Обычная</h6>
-    </div>
-    <div class="bes">
-      <h5>Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/yarimta.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star"> -->
-    </div>
-
-    <button>В корзину</button>
-  </div>
-</div>
-
-<div class="novinki">
-  <div class="aksiya">
-    <h1>Новинки</h1>
-    <div class="vse"><p>Все продукты</p>
-      <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
-  </div>
-  <div class="hammasi">
-  <div class="card2">
-    <img src="./assets/images/icons/kalbasa.svg" alt="product">
-    <div class="cost">
-      <strong>599,99 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/kitob.svg" alt="product">
-    <div class="cost">
-      <strong>44,50 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-    
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/sasiska.svg" alt="product">
-    <div class="cost">
-      <strong>159,99 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/kefir.svg" alt="product">
-    <div class="cost">
-      <strong>49,39 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-</div>
-</div>
-<div class="novinki">
-  <div class="aksiya">
-    <h1>Покупали раньше</h1>
-    <div class="vse"><p>Все продукты</p>
-      <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
-  </div>
-  <div class="hammasi">
-  <div class="card2">
-    <img src="./assets/images/icons/kalbasa2.svg" alt="product">
-    <div class="cost">
-      <strong>77,99 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/kitob.svg" alt="product">
-    <div class="cost">
-      <strong>159,99 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/kalbasa.svg" alt="product">
-    <div class="cost">
-      <strong>599,99 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-  <div class="card2">
-    <img src="./assets/images/icons/kefir.svg" alt="product">
-    <div class="cost">
-      <strong>49,39 ₽</strong>
-    </div>
-  
-    <div class="bes">
-      <h5>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</h5>
-    </div>
-    <div class="st">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <!-- <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/star.svg" alt="star">
-      <img src="./assets/images/icons/yarimta.svg" alt="star"> -->
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-      <img src="./assets/images/icons/star (1).svg" alt="star">
-    </div>
-
-    <button>В корзину</button>
-  </div>
-</div>
-</div>
-      </div>
-      </section>
-
-      <section class="karta">
+    <section class="karta">
         <div class="container">
-          <div class="ban">
-        <h3>Специальные предложения</h3>
-        <div class="banners">
-          <img src="./assets/images/icons/banner-hover.svg" alt="banner1">
-          <img src="./assets/images/icons/banner.svg" alt="">
+            <div class="ban">
+                <h3>Специальные предложения</h3>
+                <div class="banners">
+                    <img src="./assets/images/icons/banner-hover.svg" alt="banner1">
+                    <img src="./assets/images/icons/banner.svg" alt="">
 
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
-      </section>
+    </section>
 
-      <section class="magazin">
+    <section class="magazin">
         <div class="container">
-          <div class="ich">
-        <h3>Наши магазины</h3>
-        <div class="btn">
-          <button>п.Щельяюр</button>
-          <button>п.д.Вертеп</button>
-          <button>п.с.Краснобор</button>
-          <button>п.д.Диюр</button>
-        </div>
-        <img src="./assets/images/icons/karta.svg" alt="karta">
-
-      </div>
-      </div>
-      </section>
-
-      <section class="stati">
-        <div class="container">
-          <div class="aksiya">
-            <h1>Статьи</h1>
-            <div class="vse"><p>Все продукты</p>
-              <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
-          </div>
-          <div class="stati_cards">
-            <div class="stati_cards_card">
-              <img src="./assets/images/icons/odam1.svg" alt="person.svg">
-              <div class="but">
-                <p>05.03.2021</p>
-              <strong>Режим использования масок и перчаток на территории магазинов</strong>
-              <h5>Подробная информация о режимах использования масок и перчаток на территории магазинов "ЛЕНТА". Информация обновляется каждый будний день.</h5>
-              <button>Подробнее</button>
-              </div>
+            <div class="ich">
+                <h3>Наши магазины</h3>
+                <div class="btn">
+                    <button>п.Щельяюр</button>
+                    <button>п.д.Вертеп</button>
+                    <button>п.с.Краснобор</button>
+                    <button>п.д.Диюр</button>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.5035801287453!2d69.20345521029859!3d41.28552404660372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1suz!2s!4v1716734880193!5m2!1suz!2s"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
-            <div class="stati_cards_card">
-              <img src="./assets/images/icons/tabiat.svg" alt="person.svg">
-              <div class="but">
-                <p>05.03.2021</p>
-              <strong>Весеннее настроение для каждой</strong>
-              <h5>8 Марта – это не просто Международный женский день, это ещё день тюльпанов, приятных сюрпризов и праздничных тёплых пожеланий.</h5>
-              <button>Подробнее</button>
-              </div>
+        </div>
+    </section>
 
+    <section class="stati">
+        <div class="container">
+            <div class="aksiya">
+                <h1>Статьи</h1>
+                <div class="vse"><p>Все продукты</p>
+                    <img style="cursor:pointer" src="./assets/images/icons/chevron-right.svg" alt=""></div>
             </div>
-            <div class="stati_cards_card">
-              <img src="./assets/images/icons/meva.svg" alt="person.svg">
-              <div class="but">
-                <p>22.02.2020</p>
-              <strong>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</strong>
-              <h5>Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении и получайте кешбэк 10% баллами в апреле!</h5>
-              <button>Подробнее</button>
-              </div>
+            <div class="stati_cards">
+                <div class="stati_cards_card">
+                    <img src="./assets/images/icons/odam1.svg" alt="person.svg">
+                    <div class="but">
+                        <p>05.03.2021</p>
+                        <strong>Режим использования масок и перчаток на территории магазинов</strong>
+                        <h5>Подробная информация о режимах использования масок и перчаток на территории магазинов
+                            "ЛЕНТА". Информация обновляется каждый будний день.</h5>
+                        <button>Подробнее</button>
+                    </div>
 
+                </div>
+                <div class="stati_cards_card">
+                    <img src="./assets/images/icons/tabiat.svg" alt="person.svg">
+                    <div class="but">
+                        <p>05.03.2021</p>
+                        <strong>Весеннее настроение для каждой</strong>
+                        <h5>8 Марта – это не просто Международный женский день, это ещё день тюльпанов, приятных
+                            сюрпризов и праздничных тёплых пожеланий.</h5>
+                        <button>Подробнее</button>
+                    </div>
+
+                </div>
+                <div class="stati_cards_card">
+                    <img src="./assets/images/icons/meva.svg" alt="person.svg">
+                    <div class="but">
+                        <p>22.02.2020</p>
+                        <strong>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</strong>
+                        <h5>Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении и
+                            получайте кешбэк 10% баллами в апреле!</h5>
+                        <button>Подробнее</button>
+                    </div>
+
+                </div>
             </div>
-          </div>
 
         </div>
 
-      </section>
+    </section>
 
-    </main>
+</main>
 
-    <footer>
-<div class="container">
-  <div class="foot">
-   <div class="top">
-    <img src="./assets/images/icons/logo2.svg" alt="Logo.svg">
-    <ul>
-      <a href="#">О компании</a>
-      <a href="#">Контакты</a>
-      <a href="#">Вакансии</a>
-      <a href="#">Статьи</a>
-      <a href="#">Политика обработки персональных данных</a>
-    </ul>
-    <div class="social">
-      <img src="./assets/images/icons/instagram.svg" alt="Instagram">
-      <img src="./assets/images/icons/vkontakte.svg" alt="Instagram">
-      <img src="./assets/images/icons/facebook.svg" alt="Instagram">
-      <img src="./assets/images/icons/ok.svg" alt="Instagram">
+<footer>
+    <div class="container">
+        <div class="foot">
+            <div class="top">
+                <img src="./assets/images/icons/logo2.svg" alt="Logo.svg">
+                <ul>
+                    <a href="#">О компании</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Статьи</a>
+                    <a href="#">Политика обработки персональных данных</a>
+                </ul>
+                <div class="social">
+                    <img src="./assets/images/icons/instagram.svg" alt="Instagram">
+                    <img src="./assets/images/icons/vkontakte.svg" alt="Instagram">
+                    <img src="./assets/images/icons/facebook.svg" alt="Instagram">
+                    <img src="./assets/images/icons/ok.svg" alt="Instagram">
+                </div>
+
+            </div>
+            <div class="foot_bottom">
+                <div class="tel">
+                    <label for="tel"><img src="./assets/images/icons/phone.svg" alt="Phone"></label>
+                    <input id="input" type="number" placeholder="8 800 777 33 33" id="tel">
+                </div>
+                <p>Дизайн</p>
+                <img src="./assets/images/icons/logo-zasovskiy-small-black.svg" alt="Logo">
+            </div>
+        </div>
     </div>
-    <div class="tel">
-      <label for="tel"><img src="./assets/images/icons/phone.svg" alt="Phone"></label>
-      <input type="number" placeholder="8 800 777 33 33" id="tel">
-    </div>
-   </div>
-   <div class="foot_bottom">
-    <p>Дизайн</p>
-    <img src="./assets/images/icons/logo-zasovskiy-small-black.svg" alt="Logo">
-   </div>
-  </div>
-</div>
 
-    </footer>
-  
-  
-  </body>
+</footer>
+<img src="./assets/images/icons/star.svg" alt="">
+<script src="./js/home.js"></script>
+</body>
 
 </html>
