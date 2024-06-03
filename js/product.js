@@ -24,7 +24,7 @@ btnClose.addEventListener('click', () =>{
 
 const products = [
     {
-      title: "Quymoq",
+      title: "Kalbasa",
       image: "../assets/images/icons/kalbasa.svg",
       brand: "С картой",
       price: "599,99" ,
@@ -34,7 +34,7 @@ const products = [
     
   
     {
-        title: "Quymoq",
+        title: "Kalbasa",
         image:"../assets/images/icons/sasiska.svg",
         brand: "С картой",
         price: "44,50" ,
@@ -42,7 +42,7 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-        title: "Quymoq",
+        title: "Kalbasa",
         image: "../assets/images/icons/kitob.svg",
         brand: "С картой",
         price: "159,99" ,
@@ -51,7 +51,7 @@ const products = [
     },
   
     {
-      title: "Quymoq",
+      title: "Kefir",
       image: "../assets/images/icons/kefir.svg",
       brand: "С картой",
       price: "49,39" ,
@@ -59,7 +59,7 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      title: "Quymoq",
+      title: "Kefir",
       image: "../assets/images/icons/kefir.svg",
       brand: "С картой",
       price: "44,50" ,
@@ -67,7 +67,7 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-        title: "Quymoq",
+        title: "Kalbasa",
         image: "../assets/images/icons/kitob.svg",
         brand: "С картой",
         price: "77,99" ,
@@ -75,7 +75,7 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-        title: "Quymoq",
+        title: "Kalbasa",
         image:"../assets/images/icons/sasiska.svg",
         brand: "С картой",
         price: "44,50" ,
@@ -83,16 +83,10 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-        title: "Quymoq",
+        title: "Kalbasa",
         image: "../assets/images/icons/kalbasa.svg",
         brand: "С картой",
         price: "599,99" ,
-        // img:{
-        //     img_stairs:"https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg",
-        //     img_stairs:"https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg",
-        //     img_stairs:"https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg",
-        //     img_stairs:"https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg",
-        // },
         description:
           "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
         
@@ -110,7 +104,6 @@ const products = [
           <img src='${product.image}' alt='${product.title}' />
           <div class='card-content'>
           <h3>${product.price}₽</h3>
-            <p>${product.brand}</p>
             <p>${product.description}</p>
             
             <button class="ss">В корзину</button>
