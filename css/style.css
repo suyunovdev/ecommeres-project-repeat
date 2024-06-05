@@ -735,7 +735,7 @@ ul {
     }
 
 
-    button > p {
+    .humburger a {
         display: none;
     }
 
@@ -1012,7 +1012,7 @@ ul {
     .stati_cards_card {
         font-family: rubik;
         /* border: 1px black solid; */
-        width: 224px;
+        width: 200px;
         background: #fff;
         height: 420px;
         border-radius: 4px;
@@ -1021,6 +1021,9 @@ ul {
         flex-direction: column;
 
     }
+    /* .stati_cards_card:last-child{
+        display: none;
+    } */
 
     .but > p {
         font-size: 8px;

@@ -15,3 +15,5 @@ const btnClose = document.querySelector('.btn-open')
 btnClose.addEventListener('click', () =>{
     btn.classList.remove('open')
 })
+
+

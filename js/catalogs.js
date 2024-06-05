@@ -24,7 +24,6 @@ btnClose.addEventListener('click', () =>{
 
 const products = [
     {
-      id:1,
       title: "Kalbasa",
       image: "../assets/images/icons/kalbasa.svg",
       brand: "С картой",
@@ -35,7 +34,6 @@ const products = [
     
   
     {
-      id:2,
         title: "Kalbasa",
         image:"../assets/images/icons/sasiska.svg",
         brand: "С картой",
@@ -44,7 +42,6 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      id:3,
         title: "Kalbasa",
         image: "../assets/images/icons/kitob.svg",
         brand: "С картой",
@@ -54,7 +51,6 @@ const products = [
     },
   
     {
-      id:4,
       title: "Kefir",
       image: "../assets/images/icons/kefir.svg",
       brand: "С картой",
@@ -63,7 +59,6 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      id:5,
       title: "Kefir",
       image: "../assets/images/icons/kefir.svg",
       brand: "С картой",
@@ -72,7 +67,6 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      id:6,
         title: "Kalbasa",
         image: "../assets/images/icons/kitob.svg",
         brand: "С картой",
@@ -81,7 +75,6 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      id:7,
         title: "Kalbasa",
         image:"../assets/images/icons/sasiska.svg",
         brand: "С картой",
@@ -90,7 +83,6 @@ const products = [
         "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     },
     {
-      id:8,
         title: "Kalbasa",
         image: "../assets/images/icons/kalbasa.svg",
         brand: "С картой",
@@ -108,13 +100,14 @@ const products = [
     let str = "";
     data.forEach((product) => {
       str += `
-        <div class='card' data-id=${product.id}>
+        <div class='card'>
           <img src='${product.image}' alt='${product.title}' />
           <div class='card-content'>
           <h3>${product.price}₽</h3>
+          <p>${product.brand}</p>
             <p>${product.description}</p>
             
-            <button name='product-buttton'  class="ss">В корзину</button>
+            <button class="ss">В корзину</button>
           </div>
         </div>
       `;
@@ -123,23 +116,6 @@ const products = [
   }
   
   displayProducts(products);
-
-const CreatAll =(id) =>{
-  window.open(`../pages/korzinka.html?id=${id}`,"_self");
-}
-
-
-
-  cards.addEventListener("click", (e) => {
- let {name} = e.target
- if(name ==="product-buttton"){
-  let id = e.target.closest("[data-id]").dataset.id;
-  CreatAll(id)
- }
-
- 
-
-  })
   
 
 
